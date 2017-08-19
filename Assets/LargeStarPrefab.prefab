@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 23482540656789186}
   - component: {fileID: 64570593901814374}
   - component: {fileID: 114253885932151098}
+  - component: {fileID: 114411346671974570}
   m_Layer: 0
   m_Name: LargeStarPrefab
-  m_TagString: Untagged
+  m_TagString: LargeStarTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2ef80689382177d4fab2bfb51b8224cc, type: 2}
+  - {fileID: 2100000, guid: 2850823233f9a244884af2ea40776705, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,5 +106,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9267a80e2eb51854a9ef5a9eefc36bb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114411346671974570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1984468719000574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ac3e7923fa8f648b31b102ad375ae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
