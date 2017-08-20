@@ -24,6 +24,9 @@ public class BallController : MonoBehaviour {
         {
             //GameoverTextにゲームオーバを表示
             this.gameoverText.GetComponent<Text>().text = "Game Over";
+
+            // デバッグ用　（無限に続く）
+            this.transform.position = new Vector3(3,3,4);
         }
     }
 }

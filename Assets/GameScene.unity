@@ -151,7 +151,8 @@ Prefab:
       propertyPath: m_TagString
       value: LargeStarTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: a6b154f9ff9ed374d981968a01cc33ce, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &114188488
@@ -426,7 +427,8 @@ Prefab:
       propertyPath: m_TagString
       value: SmallStarTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 7ffa898d132f3b741aa3d38ef66f3e48, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &405412025
@@ -472,7 +474,8 @@ Prefab:
       propertyPath: m_TagString
       value: SmallCloudTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: fd8bff3a6c2df864794984885a869988, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &437713739
@@ -522,7 +525,8 @@ Prefab:
       propertyPath: m_TagString
       value: SmallStarTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 7ffa898d132f3b741aa3d38ef66f3e48, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &477388214
@@ -572,7 +576,8 @@ Prefab:
       propertyPath: m_TagString
       value: SmallStarTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 7ffa898d132f3b741aa3d38ef66f3e48, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &489210682 stripped
@@ -1137,7 +1142,8 @@ Prefab:
       propertyPath: m_TagString
       value: SmallCloudTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: fd8bff3a6c2df864794984885a869988, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1050629216
@@ -1269,7 +1275,8 @@ Prefab:
       propertyPath: m_TagString
       value: LargeStarTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: a6b154f9ff9ed374d981968a01cc33ce, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1118990699
@@ -1319,7 +1326,8 @@ Prefab:
       propertyPath: m_TagString
       value: SmallStarTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 7ffa898d132f3b741aa3d38ef66f3e48, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1161817404
@@ -1635,7 +1643,8 @@ Prefab:
       propertyPath: m_TagString
       value: LargeStarTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: a6b154f9ff9ed374d981968a01cc33ce, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1772738080
@@ -1681,7 +1690,8 @@ Prefab:
       propertyPath: m_TagString
       value: SmallStarTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 7ffa898d132f3b741aa3d38ef66f3e48, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1829430109
@@ -1727,7 +1737,8 @@ Prefab:
       propertyPath: m_TagString
       value: LargeCloudTag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 607b26ccb1ddf5a4881fc0aecd82e1a8, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1921779782

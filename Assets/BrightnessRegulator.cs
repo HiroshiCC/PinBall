@@ -45,6 +45,7 @@ public class BrightnessRegulator : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
+
         if (this.degree >= 0)
         {
             // 光らせる強度を計算する
