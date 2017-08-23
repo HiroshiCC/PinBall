@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;   // 得点表示のため
 
 public class BrightnessRegulator : MonoBehaviour {
 
@@ -45,7 +46,6 @@ public class BrightnessRegulator : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-
         if (this.degree >= 0)
         {
             // 光らせる強度を計算する
@@ -57,13 +57,12 @@ public class BrightnessRegulator : MonoBehaviour {
             //現在の角度を小さくする
             this.degree -= this.speed;
         }
-
     }
 
     //衝突時に呼ばれる関数
     void OnCollisionEnter(Collision other)
     {
-        //角度を180に設定
+         //角度を180に設定
         this.degree = 180;
-    }
+     }
 }
