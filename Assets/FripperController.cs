@@ -46,6 +46,28 @@ public class FripperController : MonoBehaviour {
         {
             SetAngle(this.defaultAngle);
         }
+
+        // タッチによるフリッパーの制御
+        foreach (var touch in Input.touches)
+        {
+            // 左フリッパーの場合
+            if ((tag == "LeftFripperTag") && (touch.position.x < 400))
+            {
+                if (touch.phase == TouchPhase.Ended)
+                    SetAngle(this.defaultAngle);
+                else
+                    SetAngle(this.flickAngle);
+            }
+
+            // 右フリッパーの場合
+            if ((tag == "RightFripperTag") && (touch.position.x > 400))
+            {
+                if (touch.phase == TouchPhase.Ended)
+                    SetAngle(this.defaultAngle);
+                else
+                    SetAngle(this.flickAngle);
+            }
+        }
     }
 
     //フリッパーの傾きを設定
